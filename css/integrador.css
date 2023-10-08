@@ -19,7 +19,7 @@ nav.bg-header{
     background: var(--bg-header);
 }
 
-.container img.logo, .container img.logoIndex{
+.container img.logo{
     height: 50px;
 }
 
@@ -44,20 +44,19 @@ nav.bg-header ul li a.green-link {
 }
 
 .container h1.titulo{
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 30px;
     margin-left: 400px;
+    text-decoration-line: underline;
 }
-
 
 /*Información index*/
 
-main{
-    margin-top: -20px;
-    background-color: darkseagreen;
-}
 .personal-info {
   margin-top: 20px;
+}
+
+.personal-info ul li{
+  font-size: 20px;
 }
 
 .personal-info h2 {
@@ -74,6 +73,10 @@ main{
   margin-left: 10px;
   margin-right: 10px;
   font-size: 20px;
+}
+
+main{
+  margin: 50px 0;
 }
 
 /* Sección 1 */
@@ -129,7 +132,6 @@ main{
 }
 
 .section2-content .caption {
-  /* background-color: #e9ecef; */
   padding: 10px;
   margin-top: 10px;
   text-align: left;
@@ -144,27 +146,27 @@ main{
     padding-top: 50px
 }
 
+.section3Content{
+    box-sizing: border-box;
+    padding-left: 0;
+}
+
+.section3Right{
+    background-color: #3d4956;
+}
+
 .section3Row{
-  background-color: #3d4956;
-}
-
-.section3-left{
-    background-color: white;
-}
-
-.col-md-6{
-    padding: 0;
-}
-
-
-.section3-left img {
-  width: 100%;
-  margin-left: -2px;
+  margin-right: -12px;
 }
 
 .section3-right {
   color: white;
   padding: 20px;
+}
+
+.section3Img{
+  min-height: 27rem;
+  width: 100% !important;
 }
 
 /* Sección 4 */
@@ -191,19 +193,22 @@ main{
 }
 
 .enviar{
-    background-color: rgb(176, 221, 117);
+    background-color: rgb(120 181 36);
     border: transparent;
     font-size: 25px;
 }
 
 /* Footer */
-.footer {
-  background-color: #3d4956;
-  color: white;
-  padding: 20px 0;
+ .footer {
+  background: linear-gradient(90deg, rgb(4, 34, 32), rgb(10, 82, 110));
+  display: flex;
 }
 
-.footer-links {
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+/*.footer-links {
   list-style: none;
   padding: 0;
 }
@@ -212,8 +217,4 @@ main{
   display: inline-block;
   margin: 0 10px;
 }
-
-.footer-links li a {
-  color: white;
-  text-decoration: none;
-}
+ */

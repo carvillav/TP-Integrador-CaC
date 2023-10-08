@@ -134,12 +134,12 @@
     <section class="section3">
         <div class="container-fluid">
             <div class="row text-white text-left section3Row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="section3-left">
                         <img src="../img/honolulu.jpg" alt="Imagen Sección 3" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="section3-right">
                         <h2>Bs As - Octubre</h2>
                         <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina,
@@ -157,20 +157,27 @@
     
     <!-- Sección 4 -->
     <section class="section4">
-      <div class="container text-center">
-        <p>CONVIÉRTETE EN UN</p>
-        <p class="large-text">ORADOR</p>
-        <p>Anótate como orador para dar una charla <a href="#" class="ignite-link">ignite</a>. Cuéntanos de qué quieres hablar!</p>
-        <form>
-          <div class="mb-3">
-            <input type="text" class="form-control" placeholder="Nombre">
-            <input type="text" class="form-control" placeholder="Apellido">
-          </div>
-          <textarea class="form-control" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
-          <p>Recuerda incluir un título para tu charla.</p>
-          <button type="submit" class="btn btn-green">Enviar</button>
-        </form>
-      </div>
+        <div class="container text-center">
+            <p>CONVIÉRTETE EN UN</p>
+            <p class="large-text">ORADOR</p>
+            <p class="conEnlace">Anótate como orador para dar una <a href="#" class="ignite-link">charla ignite</a>. Cuéntanos de qué quieres hablar!</p>
+            <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+                <div class="col-md-12">
+                    <textarea class="form-control" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+                <p class="fondo-section4">Recuerda incluir un título para tu charla.</p>
+                <div class="d-grid gap-1">
+                    <button class="btn btn-success enviar" type="button">Enviar</button>
+                </div>
+                
+                </div>
+            </div>    
+        </div>
     </section>
     
     <!-- Footer -->

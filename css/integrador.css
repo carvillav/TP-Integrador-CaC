@@ -19,7 +19,7 @@ nav.bg-header{
     background: var(--bg-header);
 }
 
-.container img.logo{
+.container img.logo, .container img.logoIndex{
     height: 50px;
 }
 
@@ -51,6 +51,11 @@ nav.bg-header ul li a.green-link {
 
 
 /*Información index*/
+
+main{
+    margin-top: -20px;
+    background-color: darkseagreen;
+}
 .personal-info {
   margin-top: 20px;
 }
@@ -61,7 +66,8 @@ nav.bg-header ul li a.green-link {
 
 .button-section {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
+  padding-bottom: 10px;
 }
 
 .button-text {
@@ -135,7 +141,7 @@ nav.bg-header ul li a.green-link {
 
 /* Sección 3 */
 .section3 {
-  padding: 50px 0;
+    padding-top: 50px
 }
 
 .section3Row{
@@ -153,7 +159,7 @@ nav.bg-header ul li a.green-link {
 
 .section3-left img {
   width: 100%;
-  margin-left: -1px;
+  margin-left: -2px;
 }
 
 .section3-right {
@@ -163,11 +169,31 @@ nav.bg-header ul li a.green-link {
 
 /* Sección 4 */
 .section4 {
-  padding: 50px 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
+.section4 p{
+    margin-bottom: 0;
+}
+
+.conEnlace{
+    padding-bottom: 10px;
+}
 .ignite-link {
-  color: green;
+  text-decoration: none;
+}
+
+.fondo-section4{
+    text-align: left;
+    color:#92989e;
+    padding-bottom: 10px;
+}
+
+.enviar{
+    background-color: rgb(176, 221, 117);
+    border: transparent;
+    font-size: 25px;
 }
 
 /* Footer */

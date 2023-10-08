@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    font-family: 'Ubuntu', sans-serif;    
+    font-size: 16px;
+    --bg-header: #3d4956;
+    --color-a-header: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+/* Header */
+nav.bg-header{
+    background: var(--bg-header);
+}
+
+.container img.logo{
+    height: 50px;
+}
+
+.navbar-brand span{
+    color: var(--color-a-header);
+}
+
+nav.bg-header ul{
+    margin-left: 400px;
+}
+
+nav.bg-header ul li a{
+    color: #abb2b9;
+}
+
+nav.bg-header ul li a.green-link {
+    color: rgb(9, 175, 9);
+}
+
+.bg-header ul li a:hover{
+    color: var(--color-a-header);
+}
+
+.container h1.titulo{
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+
+
+/*Información index*/
+.personal-info {
+  margin-top: 20px;
+}
+
+.personal-info h2 {
+  margin-bottom: 10px;
+}
+
+.button-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* Sección 1 */
+.section1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/hawaii.jpg');
+    opacity: 2;
+    height: 92vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-a-header);
+}
+
+.section1-content {
+    text-align: right;
+  }
+  
+.section1-content h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 350px;
+}
+
+.section1-content p{
+    color: var(--color-a-header);
+    font-size: 18px;
+}
+
+.section1-content button {
+  margin-right: 10px;
+}
+
+.section1-content button:hover{
+    color: var(--color-a-header);
+    background-color: rgb(12, 161, 12);
+    border: transparent;
+}
+
+/* Sección 2 */
+.section2 {
+  padding: 12px 0;
+}
+
+.section2-content p{
+  margin-bottom: 0;
+}
+.large-text {
+  font-size: 40px;
+}
+
+.section2-content img {
+  width: 100%;
+}
+
+.section2-content .caption {
+  /* background-color: #e9ecef; */
+  padding: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.section2 p.large-text{
+    font-size: 35px;
+}
+
+/* Sección 3 */
+.section3 {
+  padding: 50px 0;
+}
+
+.section3Row{
+  background-color: #3d4956;
+}
+
+.section3-left{
+    background-color: white;
+}
+
+.col-md-6{
+    padding: 0;
+}
+
+
+.section3-left img {
+  width: 100%;
+  margin-left: -1px;
+}
+
+.section3-right {
+  color: white;
+  padding: 20px;
+}
+
+/* Sección 4 */
+.section4 {
+  padding: 50px 0;
+}
+
+.ignite-link {
+  color: green;
+}
+
+/* Footer */
+.footer {
+  background-color: #3d4956;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+}

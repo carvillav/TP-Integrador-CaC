@@ -1,0 +1,35 @@
+.box {
+    border: 1px solid;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#box1{
+    border-color: #5399f1;
+}
+
+#box2{
+    border-color: #00bcd4;
+}
+
+#box3{
+    border-color:#ffc107;
+}
+
+#box1:hover {
+    background-color:#5399f1;
+}
+
+#box2:hover {
+    background-color:#00bcd4;
+}
+
+#box3:hover {
+    background-color:#ffc107;
+}
+
+#total-box {
+    background-color: #cfe7ff;
+    padding: 15px;
+    border-radius: 5px;
+}

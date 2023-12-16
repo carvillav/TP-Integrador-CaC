@@ -24,6 +24,11 @@ body{
   margin-bottom: 40px;
 }
 
+section {
+  min-height: 100vh;
+}
+
+
 /* Header */
 nav.bg-header{
     background: var(--bg-header);
@@ -93,10 +98,9 @@ main{
 .section1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/hawaii.jpg');
     opacity: 2;
-    height: 92vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     color: var(--color-a-header);
 }
 
@@ -207,6 +211,10 @@ main{
     background-color: rgb(146, 201, 70);
     border: transparent;
     font-size: 20px;
+}
+
+.textA {
+  resize: none;
 }
 
 /* Footer */

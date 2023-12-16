@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nuestrosOradores .btnL {
+    background-color: rgb(9, 175, 9);
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.nuestrosOradores .btnL:hover {
+    color: black;
+    background-color: transparent;
+    border: 0.5px solid rgb(9, 175, 9);;
+}
+
+.btn {
+    margin-right: 1rem;
+}
+
+.btnE {
+    color: white;
+}
+
+.btnD:hover {
+    color: black;background-color: red;
+}
